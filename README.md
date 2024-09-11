@@ -3,13 +3,14 @@ A RESTful API built with Java and Spring Boot for managing security incident rep
 Overview
 The Security Incident Management API is a RESTful service built with Java and Spring Boot that allows organizations to manage security incident reports efficiently. This API provides endpoints for creating, updating, listing, and retrieving incident reports, ensuring secure and reliable management of security-related incidents.
 
-Features
+**Features**
 Create Incident Reports: Submit new incident reports with details such as title, description, severity level, and incident date.
 Update Incident Reports: Modify existing incident reports to update their status or add notes.
 List Incidents: Retrieve a list of all incident reports with optional filtering by severity level and date range.
 Retrieve Specific Incident: Fetch details of a specific incident report by its ID.
 Data Validation: Ensure incidents adhere to business rules such as preventing reports with past dates greater than 30 days or future dates, validating severity levels, and ensuring unique and descriptive titles.
-Database
+
+**Database**
 In-Memory Database: Uses H2 in-memory database for storage and persistence of incident data.
 Entity Model: Defines an Incident entity with fields for title, description, severity level, and incident date, along with a JPA repository for data access.
 Security
@@ -20,33 +21,41 @@ Input Validation: Handles errors for invalid input, such as invalid dates or sev
 Testing
 Unit Tests: Includes unit tests for service methods using JUnit, ensuring basic functionality and correctness of the business logic.
 Security Testing: Includes tests to validate security restrictions, ensuring that unauthenticated access is properly restricted.
-Getting Started
-To run the application locally:
 
+**Getting Started**
+To run the application locally:
 Clone the Repository:
-bash
-Copy code
-git clone https://github.com/your-username/security-incident-management-api.git
+git clone git@github.com:BhargavaGoli/IncidentReportUsingSpringBoot.git
+
 Navigate to the Project Directory:
-bash
-Copy code
-cd security-incident-management-api
+cd IncidentReportUsingSpringBoot
+
 Build and Run the Application:
-bash
-Copy code
 ./mvnw spring-boot:run
-Access the API: The application will run on http://localhost:8080. Use tools like Postman or curl to interact with the API endpoints.
+
+**Access the API**: The application will run on http://localhost:8080. Use tools like Postman or curl to interact with the API endpoints.
 API Endpoints
 Create Incident: POST /api/incidents
 Update Incident: PUT /api/incidents/{id}
 List Incidents: GET /api/incidents
 Retrieve Incident: GET /api/incidents/{id}
-Sample Data
-Sample data for the Incident entity is provided for initial testing and development purposes.
+
+**Sample Data:**
+{
+  "title": "Data Leak Detected",
+  "description": "Sensitive data was leaked through a compromised API endpoint.",
+  "severity": "Medium",
+  "incidentDate": "2024-09-09"
+}
+{
+  "title": "Phishing Attempt Reported",
+  "description": "Multiple employees reported phishing emails disguised as company communications.",
+  "severity": "Low",
+  "incidentDate": "2024-09-08"
+}
 
 Contribution
 Feel free to contribute to this project by submitting issues or pull requests. Contributions are welcome!
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
