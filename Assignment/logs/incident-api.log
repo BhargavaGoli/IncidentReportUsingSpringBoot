@@ -1,0 +1,543 @@
+2024-09-11 14:05:50 - Starting AssignmentApplication using Java 21.0.3 with PID 5875 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 14:05:50 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 14:05:50 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 14:05:50 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 14:05:50 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 14:05:50 - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-09-11 14:05:51 - Tomcat initialized with port 8080 (http)
+2024-09-11 14:05:51 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:05:51 - Starting service [Tomcat]
+2024-09-11 14:05:51 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 14:05:51 - Initializing Spring embedded WebApplicationContext
+2024-09-11 14:05:51 - Root WebApplicationContext: initialization completed in 679 ms
+2024-09-11 14:05:51 - HikariPool-1 - Starting...
+2024-09-11 14:05:51 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 14:05:51 - HikariPool-1 - Start completed.
+2024-09-11 14:05:51 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 14:05:51 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 14:05:51 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 14:05:51 - HHH000026: Second-level cache disabled
+2024-09-11 14:05:51 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 14:05:51 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 14:05:51 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 14:05:51 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:05:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 14:05:52 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 14:05:52 - LiveReload server is running on port 35729
+2024-09-11 14:05:52 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:05:52 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 14:05:52 - Started AssignmentApplication in 2.17 seconds (process running for 2.638)
+2024-09-11 14:06:05 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:06:05 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 14:06:05 - HikariPool-1 - Shutdown initiated...
+2024-09-11 14:06:05 - HikariPool-1 - Shutdown completed.
+2024-09-11 14:06:07 - Starting AssignmentApplication using Java 21.0.3 with PID 5924 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 14:06:07 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 14:06:07 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 14:06:07 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 14:06:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 14:06:07 - Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2024-09-11 14:06:07 - Tomcat initialized with port 8080 (http)
+2024-09-11 14:06:07 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:06:07 - Starting service [Tomcat]
+2024-09-11 14:06:07 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 14:06:07 - Initializing Spring embedded WebApplicationContext
+2024-09-11 14:06:07 - Root WebApplicationContext: initialization completed in 675 ms
+2024-09-11 14:06:07 - HikariPool-1 - Starting...
+2024-09-11 14:06:08 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 14:06:08 - HikariPool-1 - Start completed.
+2024-09-11 14:06:08 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 14:06:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 14:06:08 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 14:06:08 - HHH000026: Second-level cache disabled
+2024-09-11 14:06:08 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 14:06:08 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 14:06:08 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 14:06:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:06:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 14:06:08 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 14:06:08 - LiveReload server is running on port 35729
+2024-09-11 14:06:08 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:06:09 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 14:06:09 - Started AssignmentApplication in 2.041 seconds (process running for 2.408)
+2024-09-11 14:06:17 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 14:06:17 - Initializing Servlet 'dispatcherServlet'
+2024-09-11 14:06:17 - Completed initialization in 2 ms
+2024-09-11 14:12:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:12:07 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 14:12:07 - HikariPool-1 - Shutdown initiated...
+2024-09-11 14:12:07 - HikariPool-1 - Shutdown completed.
+2024-09-11 14:12:09 - Starting AssignmentApplication using Java 21.0.3 with PID 6026 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 14:12:09 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 14:12:09 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 14:12:09 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 14:12:09 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 14:12:09 - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-09-11 14:12:09 - Tomcat initialized with port 8080 (http)
+2024-09-11 14:12:09 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:12:09 - Starting service [Tomcat]
+2024-09-11 14:12:09 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 14:12:09 - Initializing Spring embedded WebApplicationContext
+2024-09-11 14:12:09 - Root WebApplicationContext: initialization completed in 675 ms
+2024-09-11 14:12:09 - HikariPool-1 - Starting...
+2024-09-11 14:12:09 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 14:12:09 - HikariPool-1 - Start completed.
+2024-09-11 14:12:09 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 14:12:09 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 14:12:09 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 14:12:10 - HHH000026: Second-level cache disabled
+2024-09-11 14:12:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 14:12:10 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 14:12:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 14:12:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:12:10 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 14:12:10 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 14:12:10 - LiveReload server is running on port 35729
+2024-09-11 14:12:10 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:12:10 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 14:12:10 - Started AssignmentApplication in 2.051 seconds (process running for 2.475)
+2024-09-11 14:13:39 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 14:13:39 - Initializing Servlet 'dispatcherServlet'
+2024-09-11 14:13:39 - Completed initialization in 1 ms
+2024-09-11 14:13:39 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 14:17:03 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:17:03 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 14:17:03 - HikariPool-1 - Shutdown initiated...
+2024-09-11 14:17:03 - HikariPool-1 - Shutdown completed.
+2024-09-11 14:17:05 - Starting AssignmentApplication using Java 21.0.3 with PID 6067 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 14:17:05 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 14:17:05 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 14:17:05 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 14:17:06 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 14:17:06 - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-09-11 14:17:06 - Tomcat initialized with port 8080 (http)
+2024-09-11 14:17:06 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:17:06 - Starting service [Tomcat]
+2024-09-11 14:17:06 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 14:17:06 - Initializing Spring embedded WebApplicationContext
+2024-09-11 14:17:06 - Root WebApplicationContext: initialization completed in 704 ms
+2024-09-11 14:17:06 - HikariPool-1 - Starting...
+2024-09-11 14:17:06 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 14:17:06 - HikariPool-1 - Start completed.
+2024-09-11 14:17:06 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 14:17:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 14:17:06 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 14:17:06 - HHH000026: Second-level cache disabled
+2024-09-11 14:17:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 14:17:06 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 14:17:07 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 14:17:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:17:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 14:17:07 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 14:17:07 - LiveReload server is running on port 35729
+2024-09-11 14:17:07 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:17:07 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 14:17:07 - Started AssignmentApplication in 2.112 seconds (process running for 2.534)
+2024-09-11 14:17:11 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 14:17:11 - Initializing Servlet 'dispatcherServlet'
+2024-09-11 14:17:11 - Completed initialization in 1 ms
+2024-09-11 14:19:16 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 14:19:16 - Resolved [java.lang.RuntimeException: Incident data is invalid]
+2024-09-11 14:19:53 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:19:53 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 14:19:53 - HikariPool-1 - Shutdown initiated...
+2024-09-11 14:19:53 - HikariPool-1 - Shutdown completed.
+2024-09-11 14:20:52 - Starting AssignmentApplication using Java 21.0.3 with PID 6095 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 14:20:52 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 14:20:53 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 14:20:53 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 14:20:53 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 14:20:53 - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-09-11 14:20:53 - Tomcat initialized with port 8080 (http)
+2024-09-11 14:20:53 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:20:53 - Starting service [Tomcat]
+2024-09-11 14:20:53 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 14:20:53 - Initializing Spring embedded WebApplicationContext
+2024-09-11 14:20:53 - Root WebApplicationContext: initialization completed in 664 ms
+2024-09-11 14:20:53 - HikariPool-1 - Starting...
+2024-09-11 14:20:53 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 14:20:53 - HikariPool-1 - Start completed.
+2024-09-11 14:20:53 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 14:20:53 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 14:20:53 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 14:20:53 - HHH000026: Second-level cache disabled
+2024-09-11 14:20:54 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 14:20:54 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 14:20:54 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 14:20:54 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:20:54 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 14:20:54 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 14:20:54 - LiveReload server is running on port 35729
+2024-09-11 14:20:54 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:20:54 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 14:20:54 - Started AssignmentApplication in 2.09 seconds (process running for 2.415)
+2024-09-11 14:20:58 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 14:20:58 - Initializing Servlet 'dispatcherServlet'
+2024-09-11 14:20:58 - Completed initialization in 1 ms
+2024-09-11 14:20:58 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 14:21:12 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 14:22:22 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 14:22:31 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-09-11 14:22:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:22:45 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 14:22:45 - HikariPool-1 - Shutdown initiated...
+2024-09-11 14:22:45 - HikariPool-1 - Shutdown completed.
+2024-09-11 14:23:10 - Starting AssignmentApplication using Java 21.0.3 with PID 6112 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 14:23:10 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 14:23:10 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 14:23:10 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 14:23:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 14:23:10 - Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2024-09-11 14:23:11 - Tomcat initialized with port 8080 (http)
+2024-09-11 14:23:11 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:23:11 - Starting service [Tomcat]
+2024-09-11 14:23:11 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 14:23:11 - Initializing Spring embedded WebApplicationContext
+2024-09-11 14:23:11 - Root WebApplicationContext: initialization completed in 676 ms
+2024-09-11 14:23:11 - HikariPool-1 - Starting...
+2024-09-11 14:23:11 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 14:23:11 - HikariPool-1 - Start completed.
+2024-09-11 14:23:11 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 14:23:11 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 14:23:11 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 14:23:11 - HHH000026: Second-level cache disabled
+2024-09-11 14:23:11 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 14:23:11 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 14:23:12 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 14:23:12 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:23:12 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 14:23:12 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 14:23:12 - LiveReload server is running on port 35729
+2024-09-11 14:23:12 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:23:12 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 14:23:12 - Started AssignmentApplication in 1.979 seconds (process running for 2.292)
+2024-09-11 14:23:28 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 14:23:28 - Initializing Servlet 'dispatcherServlet'
+2024-09-11 14:23:28 - Completed initialization in 2 ms
+2024-09-11 14:26:26 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:26:27 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 14:26:27 - HikariPool-1 - Shutdown initiated...
+2024-09-11 14:26:27 - HikariPool-1 - Shutdown completed.
+2024-09-11 14:29:18 - Starting AssignmentApplication using Java 21.0.3 with PID 6152 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 14:29:18 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 14:29:18 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 14:29:18 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 14:29:18 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 14:29:18 - Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2024-09-11 14:29:18 - Tomcat initialized with port 8080 (http)
+2024-09-11 14:29:18 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:29:18 - Starting service [Tomcat]
+2024-09-11 14:29:18 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 14:29:18 - Initializing Spring embedded WebApplicationContext
+2024-09-11 14:29:18 - Root WebApplicationContext: initialization completed in 642 ms
+2024-09-11 14:29:18 - HikariPool-1 - Starting...
+2024-09-11 14:29:19 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 14:29:19 - HikariPool-1 - Start completed.
+2024-09-11 14:29:19 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 14:29:19 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 14:29:19 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 14:29:19 - HHH000026: Second-level cache disabled
+2024-09-11 14:29:19 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 14:29:19 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 14:29:19 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 14:29:19 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:29:19 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 14:29:19 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 14:29:20 - LiveReload server is running on port 35729
+2024-09-11 14:29:20 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:29:20 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 14:29:20 - Started AssignmentApplication in 2.057 seconds (process running for 2.38)
+2024-09-11 14:29:20 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 14:29:20 - Initializing Servlet 'dispatcherServlet'
+2024-09-11 14:29:20 - Completed initialization in 1 ms
+2024-09-11 14:31:58 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 14:33:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:33:04 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 14:33:04 - HikariPool-1 - Shutdown initiated...
+2024-09-11 14:33:04 - HikariPool-1 - Shutdown completed.
+2024-09-11 14:33:19 - Starting AssignmentApplication using Java 21.0.3 with PID 6261 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 14:33:19 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 14:33:19 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 14:33:19 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 14:33:19 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 14:33:19 - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-09-11 14:33:19 - Tomcat initialized with port 8080 (http)
+2024-09-11 14:33:19 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:33:19 - Starting service [Tomcat]
+2024-09-11 14:33:19 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 14:33:19 - Initializing Spring embedded WebApplicationContext
+2024-09-11 14:33:19 - Root WebApplicationContext: initialization completed in 691 ms
+2024-09-11 14:33:19 - HikariPool-1 - Starting...
+2024-09-11 14:33:19 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 14:33:19 - HikariPool-1 - Start completed.
+2024-09-11 14:33:19 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 14:33:20 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 14:33:20 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 14:33:20 - HHH000026: Second-level cache disabled
+2024-09-11 14:33:20 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 14:33:20 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 14:33:20 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 14:33:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:33:20 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 14:33:20 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 14:33:21 - LiveReload server is running on port 35729
+2024-09-11 14:33:21 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 14:33:21 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 14:33:21 - Started AssignmentApplication in 2.217 seconds (process running for 2.6)
+2024-09-11 14:33:22 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 14:33:22 - Initializing Servlet 'dispatcherServlet'
+2024-09-11 14:33:22 - Completed initialization in 1 ms
+2024-09-11 14:37:27 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 14:37:27 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 14:37:27 - HikariPool-1 - Shutdown initiated...
+2024-09-11 14:37:27 - HikariPool-1 - Shutdown completed.
+2024-09-11 16:19:00 - Starting AssignmentApplication using Java 21.0.3 with PID 7179 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 16:19:00 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 16:19:00 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 16:19:00 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 16:19:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 16:19:01 - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-09-11 16:19:01 - Tomcat initialized with port 8080 (http)
+2024-09-11 16:19:01 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 16:19:01 - Starting service [Tomcat]
+2024-09-11 16:19:01 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 16:19:01 - Initializing Spring embedded WebApplicationContext
+2024-09-11 16:19:01 - Root WebApplicationContext: initialization completed in 667 ms
+2024-09-11 16:19:01 - HikariPool-1 - Starting...
+2024-09-11 16:19:01 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 16:19:01 - HikariPool-1 - Start completed.
+2024-09-11 16:19:01 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 16:19:01 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 16:19:01 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 16:19:01 - HHH000026: Second-level cache disabled
+2024-09-11 16:19:01 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 16:19:02 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 16:19:02 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 16:19:02 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 16:19:02 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 16:19:02 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 16:19:02 - LiveReload server is running on port 35729
+2024-09-11 16:19:02 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 16:19:02 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 16:19:02 - Started AssignmentApplication in 1.997 seconds (process running for 2.407)
+2024-09-11 16:21:41 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 16:21:41 - Initializing Servlet 'dispatcherServlet'
+2024-09-11 16:21:41 - Completed initialization in 0 ms
+2024-09-11 16:22:43 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 16:22:43 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 16:22:43 - HikariPool-1 - Shutdown initiated...
+2024-09-11 16:22:43 - HikariPool-1 - Shutdown completed.
+2024-09-11 16:22:44 - Starting AssignmentApplication using Java 21.0.3 with PID 7248 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 16:22:44 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 16:22:44 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 16:22:44 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 16:22:44 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 16:22:45 - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-09-11 16:22:45 - Tomcat initialized with port 8080 (http)
+2024-09-11 16:22:45 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 16:22:45 - Starting service [Tomcat]
+2024-09-11 16:22:45 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 16:22:45 - Initializing Spring embedded WebApplicationContext
+2024-09-11 16:22:45 - Root WebApplicationContext: initialization completed in 721 ms
+2024-09-11 16:22:45 - HikariPool-1 - Starting...
+2024-09-11 16:22:45 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 16:22:45 - HikariPool-1 - Start completed.
+2024-09-11 16:22:45 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 16:22:45 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 16:22:45 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 16:22:45 - HHH000026: Second-level cache disabled
+2024-09-11 16:22:45 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 16:22:45 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 16:22:46 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 16:22:46 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 16:22:46 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 16:22:46 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 16:22:46 - LiveReload server is running on port 35729
+2024-09-11 16:22:46 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 16:22:46 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 16:22:46 - Started AssignmentApplication in 2.133 seconds (process running for 2.51)
+2024-09-11 16:23:21 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 16:23:21 - Initializing Servlet 'dispatcherServlet'
+2024-09-11 16:23:21 - Completed initialization in 1 ms
+2024-09-11 16:25:27 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 16:26:23 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 16:35:03 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 16:35:03 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 16:35:03 - HikariPool-1 - Shutdown initiated...
+2024-09-11 16:35:03 - HikariPool-1 - Shutdown completed.
+2024-09-11 17:03:05 - Starting AssignmentApplication using Java 21.0.3 with PID 7537 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 17:03:05 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 17:03:05 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 17:03:05 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 17:03:06 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 17:03:06 - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-09-11 17:03:06 - Tomcat initialized with port 8080 (http)
+2024-09-11 17:03:06 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 17:03:06 - Starting service [Tomcat]
+2024-09-11 17:03:06 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 17:03:06 - Initializing Spring embedded WebApplicationContext
+2024-09-11 17:03:06 - Root WebApplicationContext: initialization completed in 681 ms
+2024-09-11 17:03:06 - HikariPool-1 - Starting...
+2024-09-11 17:03:06 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 17:03:06 - HikariPool-1 - Start completed.
+2024-09-11 17:03:06 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 17:03:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 17:03:06 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 17:03:06 - HHH000026: Second-level cache disabled
+2024-09-11 17:03:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 17:03:06 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 17:03:07 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 17:03:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 17:03:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 17:03:07 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 17:03:07 - LiveReload server is running on port 35729
+2024-09-11 17:03:07 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 17:03:07 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 17:03:07 - Started AssignmentApplication in 2.058 seconds (process running for 2.427)
+2024-09-11 17:03:24 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 17:03:24 - Initializing Servlet 'dispatcherServlet'
+2024-09-11 17:03:24 - Completed initialization in 0 ms
+2024-09-11 17:05:22 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 17:05:22 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 17:05:22 - HikariPool-1 - Shutdown initiated...
+2024-09-11 17:05:22 - HikariPool-1 - Shutdown completed.
+2024-09-11 20:09:03 - Could not detect default configuration classes for test class [com.ByteMonk.Assignment.IncidentSecurityTest]: IncidentSecurityTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-11 20:09:03 - Found @SpringBootConfiguration com.ByteMonk.Assignment.AssignmentApplication for test class com.ByteMonk.Assignment.IncidentSecurityTest
+2024-09-11 20:09:04 - Restart disabled due to context in which it is running
+2024-09-11 20:09:04 - Starting IncidentSecurityTest using Java 21.0.3 with PID 30672 (started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 20:09:04 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 20:09:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 20:09:04 - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-09-11 20:09:04 - HikariPool-1 - Starting...
+2024-09-11 20:09:04 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 20:09:04 - HikariPool-1 - Start completed.
+2024-09-11 20:09:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 20:09:04 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 20:09:04 - HHH000026: Second-level cache disabled
+2024-09-11 20:09:04 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 20:09:04 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 20:09:05 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 20:09:05 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 20:09:05 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 20:09:05 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 20:09:05 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 20:09:05 - Initializing Spring TestDispatcherServlet ''
+2024-09-11 20:09:05 - Initializing Servlet ''
+2024-09-11 20:09:05 - Completed initialization in 0 ms
+2024-09-11 20:09:05 - Started IncidentSecurityTest in 1.813 seconds (process running for 2.395)
+2024-09-11 20:09:06 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 20:09:06 - HikariPool-1 - Shutdown initiated...
+2024-09-11 20:09:06 - HikariPool-1 - Shutdown completed.
+2024-09-11 20:14:17 - Could not detect default configuration classes for test class [com.ByteMonk.Assignment.IncidentSecurityTest]: IncidentSecurityTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-11 20:14:17 - Found @SpringBootConfiguration com.ByteMonk.Assignment.AssignmentApplication for test class com.ByteMonk.Assignment.IncidentSecurityTest
+2024-09-11 20:14:17 - Restart disabled due to context in which it is running
+2024-09-11 20:14:17 - Starting IncidentSecurityTest using Java 21.0.3 with PID 30725 (started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 20:14:17 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 20:14:17 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 20:14:17 - Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-09-11 20:14:18 - HikariPool-1 - Starting...
+2024-09-11 20:14:18 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 20:14:18 - HikariPool-1 - Start completed.
+2024-09-11 20:14:18 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 20:14:18 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 20:14:18 - HHH000026: Second-level cache disabled
+2024-09-11 20:14:18 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 20:14:18 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 20:14:18 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 20:14:18 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 20:14:19 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 20:14:19 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 20:14:19 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 20:14:19 - Initializing Spring TestDispatcherServlet ''
+2024-09-11 20:14:19 - Initializing Servlet ''
+2024-09-11 20:14:19 - Completed initialization in 0 ms
+2024-09-11 20:14:19 - Started IncidentSecurityTest in 1.85 seconds (process running for 2.482)
+2024-09-11 20:14:19 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 20:14:19 - HikariPool-1 - Shutdown initiated...
+2024-09-11 20:14:19 - HikariPool-1 - Shutdown completed.
+2024-09-11 20:14:34 - Starting AssignmentApplication using Java 21.0.3 with PID 30738 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 20:14:34 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 20:14:34 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 20:14:34 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 20:14:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 20:14:34 - Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2024-09-11 20:14:35 - Tomcat initialized with port 8080 (http)
+2024-09-11 20:14:35 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 20:14:35 - Starting service [Tomcat]
+2024-09-11 20:14:35 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 20:14:35 - Initializing Spring embedded WebApplicationContext
+2024-09-11 20:14:35 - Root WebApplicationContext: initialization completed in 672 ms
+2024-09-11 20:14:35 - HikariPool-1 - Starting...
+2024-09-11 20:14:35 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 20:14:35 - HikariPool-1 - Start completed.
+2024-09-11 20:14:35 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 20:14:35 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 20:14:35 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 20:14:35 - HHH000026: Second-level cache disabled
+2024-09-11 20:14:35 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 20:14:35 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 20:14:35 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 20:14:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 20:14:36 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 20:14:36 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 20:14:36 - LiveReload server is running on port 35729
+2024-09-11 20:14:36 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 20:14:36 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 20:14:36 - Started AssignmentApplication in 2.036 seconds (process running for 2.409)
+2024-09-11 20:14:47 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 20:14:47 - Initializing Servlet 'dispatcherServlet'
+2024-09-11 20:14:47 - Completed initialization in 1 ms
+2024-09-11 20:15:26 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 20:15:26 - Resolved [java.lang.NullPointerException]
+2024-09-11 20:15:48 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 20:15:48 - Resolved [java.lang.NullPointerException]
+2024-09-11 20:18:24 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 20:18:24 - Resolved [java.lang.NullPointerException]
+2024-09-11 20:18:26 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 20:18:26 - Resolved [java.lang.NullPointerException]
+2024-09-11 20:18:36 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 20:18:36 - Resolved [java.lang.NullPointerException]
+2024-09-11 20:19:25 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 20:20:11 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 20:21:37 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 20:21:37 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 20:21:37 - HikariPool-1 - Shutdown initiated...
+2024-09-11 20:21:37 - HikariPool-1 - Shutdown completed.
+2024-09-11 20:24:27 - Starting AssignmentApplication using Java 21.0.3 with PID 30862 (/Users/bhargavagoli/Documents/Assignment/target/classes started by bhargavagoli in /Users/bhargavagoli/Documents/Assignment)
+2024-09-11 20:24:27 - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 20:24:27 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 20:24:27 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 20:24:27 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 20:24:27 - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-09-11 20:24:27 - Tomcat initialized with port 8080 (http)
+2024-09-11 20:24:27 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-11 20:24:27 - Starting service [Tomcat]
+2024-09-11 20:24:27 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11 20:24:27 - Initializing Spring embedded WebApplicationContext
+2024-09-11 20:24:27 - Root WebApplicationContext: initialization completed in 666 ms
+2024-09-11 20:24:27 - HikariPool-1 - Starting...
+2024-09-11 20:24:27 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11 20:24:27 - HikariPool-1 - Start completed.
+2024-09-11 20:24:27 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11 20:24:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 20:24:27 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-11 20:24:27 - HHH000026: Second-level cache disabled
+2024-09-11 20:24:28 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 20:24:28 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-11 20:24:28 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11 20:24:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 20:24:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 20:24:28 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-09-11 20:24:28 - LiveReload server is running on port 35729
+2024-09-11 20:24:28 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-11 20:24:28 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-11 20:24:28 - Started AssignmentApplication in 2.039 seconds (process running for 2.425)
+2024-09-11 20:24:40 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 20:24:40 - Initializing Servlet 'dispatcherServlet'
+2024-09-11 20:24:40 - Completed initialization in 1 ms
+2024-09-11 20:24:40 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 20:25:01 - REQUEST from IP:0:0:0:0:0:0:0:1, ENDPOINT:/api/incidents, METHOD:POST 
+2024-09-11 20:25:15 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 20:25:15 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-11 20:25:15 - HikariPool-1 - Shutdown initiated...
+2024-09-11 20:25:15 - HikariPool-1 - Shutdown completed.
